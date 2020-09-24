@@ -1,0 +1,49 @@
+* {
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	margin-top: 6vh;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#menu-container {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	column-gap: 2vw;
+}
+
+.menu-item {
+	margin: 0 auto;
+	padding: 4vw 4vw;
+	border: 1px solid black;
+	text-align: center;
+	text-decoration: none;	
+}
+
+.menu-item:hover {
+	border: 2px solid black;
+}
+
+.card-image {
+	display: block;
+	margin: 0 auto 3vw auto;
+	width: 10vw;
+}
+
+.item-header {
+	color: black;
+	font-size: 1.2vw;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#trademark {
+	font-family: 'Montserrat', sans-serif;
+	position: fixed;
+	bottom: 2vw;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
