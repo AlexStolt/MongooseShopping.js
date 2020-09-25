@@ -17,9 +17,9 @@ function renderDOM(data){
 				let paragraph = document.createElement("p");
 				let description = document.createTextNode(element.description);
 				paragraph.appendChild(description);
-				itemContainer.classList.add("item-conainer"); //Add Class To Use CSS
 				itemContainer.appendChild(paragraph);
-			}	
+			}
+			itemContainer.classList.add("item-conainer"); //Add Class To Use CSS
 			ordersContainer.appendChild(itemContainer);
 		}
 	});
