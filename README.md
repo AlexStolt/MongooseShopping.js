@@ -1,14 +1,8 @@
 # MongooseShopping.js
 A Very Simple Full Stack Shopping Cart
 
-## Structure
-client <----> LAN <----> Live-Server (Web Server) <----> Express (Application Server)
-                              
-                              |                                     |
-                              |                                     | (Mongoose)
-                              V                                     V
-                     (HTML, CSS, JS...)                           (Local MongoDB)
-
+## Network Structure
+![Network Stucture](stucture.svg)
 
 ## Project Purpose
 This is a Personal Two Day Challenge to Learn More About AJAX, Asynchronous JavaScript, Database Managment With Mongoose, Routing, Front-End "Rendering" And CORS
