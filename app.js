@@ -3,6 +3,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const registerRouter = require('./api/routes/register');
+const ordersRouter = require('./api/routes/order');
+
 
 //Connect On Local Database
 const uri = 'mongodb://127.0.0.1:27017/tShirtShop';
@@ -16,8 +18,7 @@ const PORT = process.env.PORT || 8000;
 app.use(bodyParser.json()); //Parse JSON Files
 app.use(cors()); //Allow CORS
 app.use('/register', registerRouter);
-
-
+app.use('/orders', ordersRouter);
 
 app.listen(PORT, () => {
   console.log(`API Listening on PORT: ${PORT}`);

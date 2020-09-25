@@ -25,5 +25,6 @@ submit.addEventListener('click', (event) => {
 		if(!data.success){
 			alert('Product Already Exists');
 		}
+		form.reset();
 	});
 })
