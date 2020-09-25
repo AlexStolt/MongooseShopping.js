@@ -14,4 +14,15 @@ This is a Personal Two Day Challenge to Learn More About AJAX, Asynchronous Java
 ## Front-End
 * Vanilla JavaScript (AJAX with fetch())
 * HTML and CSS
+## How to Run
+### Install And Start MongoDB Services
+Installation Guide: [Here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) and Start Service with ```sudo systemctl start mongod```
 
+### Run Live Server as A Web Server On the Client Directory
+```live-server MongooseShopping.js/client/ ```
+### Run Node.js Dynamic Server as an Application Server
+```cd MongooseShopping.js/``` 
+
+Optional: Export a PORT with ```export PORT=8000```
+
+```npm run devStart```
