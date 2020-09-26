@@ -26,3 +26,6 @@ Installation Guide: [Here](https://docs.mongodb.com/manual/tutorial/install-mong
 Optional: Export a PORT with ```export PORT=8000```
 
 ```npm run devStart```
+
+## [Issue] No Authentication
+Authentication Will be Implemented On A Later Version
